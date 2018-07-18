@@ -50,18 +50,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#paiwi">Paiwi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            <?php
+              $navbar_items = ['About', 'Paiwi', 'FAQ', 'Contact'];
+              foreach ($navbar_items as $item) { ?>
+                <?php if ( is_front_page() && ! is_home() ) : ?>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#<?php echo strtolower($item) ?>"><?php echo $item ?></a>
+                  </li>
+                <?php else : ?>
+                  <li class="nav-item">
+                    <a class="nav-link" href="<?php echo get_home_url() . '#' . strtolower($item); ?>"><?php echo $item ?></a>
+                  </li>
+                <?php endif; ?>
+            <?php
+              } ?>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo get_home_url(); ?>/blog/">Blog</a>
             </li>
