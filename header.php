@@ -39,13 +39,10 @@
 		<div id="page-top" class="wrapper">
 
 			<!-- header -->
-			<!-- /header -->
-
-			<!-- header -->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
           <img id="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,6 +61,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo get_home_url(); ?>/blog/">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://paiwionline.com/dvboer/login">Log in</a>
