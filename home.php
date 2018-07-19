@@ -21,7 +21,7 @@ endwhile; endif;
 ?-->
 
 <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-$args = array( 'post_type' => 'post', 'posts_per_page' => 4, 'paged' => $paged );
+$args = array( 'post_type' => 'post', 'posts_per_page' => 6, 'paged' => $paged );
 $wp_query = new WP_Query($args);
 while ( have_posts() ) : the_post(); 
   get_template_part( 'preview', get_post_format() );

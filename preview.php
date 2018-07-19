@@ -1,8 +1,10 @@
-<div class="col-sm-6 post-preview-box">
+<div class="col-sm-4 post-preview-box">
   <div class="post-preview">
     <!-- Title -->
     <div class="post-preview-title">
-      <h1><?php the_title(); ?></h1>
+      <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+        <h1><?php the_title(); ?></h1>
+      </a>
     </div>
 
     <!-- Author -->
