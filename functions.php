@@ -131,14 +131,23 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
+    wp_register_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), '1.0', 'all');
     wp_enqueue_style('normalize'); // Enqueue it!
 
-    wp_register_style('creative', get_template_directory_uri() . '/creative.css', array(), '1.0', 'all');
-    wp_enqueue_style('creative'); // Enqueue it!
+    wp_register_style('dcnf-base', get_template_directory_uri() . '/css/style-base.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-base'); // Enqueue it!
 
-    wp_register_style('dcnf', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-    wp_enqueue_style('dcnf'); // Enqueue it!
+    wp_register_style('dcnf-theme', get_template_directory_uri() . '/css/style-theme.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-theme'); // Enqueue it!
+
+    wp_register_style('dcnf-layout', get_template_directory_uri() . '/css/style-layout.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-layout'); // Enqueue it!
+
+    wp_register_style('dcnf-module-frontpage', get_template_directory_uri() . '/css/style-module-frontpage.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-module-frontpage'); // Enqueue it!
+
+    wp_register_style('dcnf-module-blog', get_template_directory_uri() . '/css/style-module-blog.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-module-blog'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation

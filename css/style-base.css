@@ -1,0 +1,74 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table {
+  font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+body,
+p {
+  font-family: 'Merriweather', 'Georgia', 'serif';
+}
+
+p {
+  font-size: 24px;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  background-color: #88a229;
+  border-color: #88a229;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+a {
+  color: #88a229;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #88a229;
+}
+
+ul {
+  font-size: 36px;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+button {
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
