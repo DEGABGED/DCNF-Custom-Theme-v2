@@ -8,7 +8,7 @@
     </div>
 
     <!-- Author -->
-    <hr>
+    <hr class="dark">
     <div class="post-preview-sub">
       <span class="details">
         <p class="lead">

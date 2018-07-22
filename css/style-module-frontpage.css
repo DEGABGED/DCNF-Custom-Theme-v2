@@ -2,10 +2,6 @@
  * SECTIONS *
  ************/
 
-#gallery {
-  display: none; /* No gallery of pictures yet */
-}
-
 #about {
   background-image: url(../img/goat3-sat.jpg);
   background-attachment: fixed;

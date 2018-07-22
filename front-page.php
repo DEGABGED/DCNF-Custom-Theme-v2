@@ -20,7 +20,7 @@
     </header>
 
     <!-- About -->
-    <section class="bg-primary bottom-separator" id="about">
+    <section class="bg-primary" id="about">
       <div class="container-fluid">
         <div class="row-card">
           <div class="row">
@@ -77,6 +77,41 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="bg-dark text-white" id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Gallery</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Latest News</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+
+        <?php
+          // the query
+          $the_query = new WP_Query( array(
+            'posts_per_page' => 3,
+          ));
+          if ( $the_query->have_posts() ) :
+            while ( $the_query->have_posts() ) : $the_query->the_post();
+              get_template_part( 'preview', get_post_format() );
+            endwhile;
+          else : ?>
+            <p><?php __('No News'); ?></p>
+        <?php endif; ?>
         </div>
       </div>
     </section>

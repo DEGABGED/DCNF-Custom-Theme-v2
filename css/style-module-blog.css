@@ -9,6 +9,8 @@
 .post-preview {
   border: 1px solid #ccc;
   padding: 19px;
+  background-color: #fff;
+  color: #212529;
 }
 
 .post-preview-box {

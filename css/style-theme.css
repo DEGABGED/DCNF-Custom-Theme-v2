@@ -12,6 +12,10 @@ hr.light {
   border-color: #fff;
 }
 
+hr.dark {
+  border-color: #212529;
+}
+
 hr.separator {
   visibility: hidden;
 }

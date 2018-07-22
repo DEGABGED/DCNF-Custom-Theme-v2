@@ -59,6 +59,10 @@ a:hover {
   color: #88a229;
 }
 
+a:visited {
+  color: #5D6F1C;
+}
+
 ul {
   font-size: 36px;
 }
