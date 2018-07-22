@@ -16,7 +16,7 @@
 }
 
 .post-preview-title {
-  height: 7rem;
+  height: 5rem;
   overflow:hidden;
   text-overflow: ellipsis;
   position: relative;
@@ -33,14 +33,16 @@
 }
 */
 .post-preview-image {
-  max-height: 400px;
+  height: 240px;
   overflow: hidden;
 }
 
 .post-preview-image .wp-post-image {
+  display: block;
   max-width: 100%;
   max-height: 400px;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .post-preview-sub {
@@ -66,4 +68,14 @@ span.viewmore {
     max-width: 100%;
     max-height: 200px;
   }
+}
+
+/**************
+ * PAGINATION *
+ **************/
+
+#pagination {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }

@@ -111,3 +111,15 @@ hr.separator {
   background-color: #BFE1F1 !important;
   color: #212529 !important;
 }
+
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1560px;
+  }
+}

@@ -29,8 +29,10 @@ endwhile; ?>
 </div>
 
 <!-- then the pagination links -->
+<div id="pagination" class="row">
 <?php next_posts_link( '&larr; Older posts', $wp_query ->max_num_pages); ?>
 <?php previous_posts_link( 'Newer posts &rarr;' ); ?>
+</div>
 </div>
 
 <?php get_footer(); ?>

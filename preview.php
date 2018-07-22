@@ -3,7 +3,7 @@
     <!-- Title -->
     <div class="post-preview-title">
       <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-        <h1><?php the_title(); ?></h1>
+        <h4><?php the_title(); ?></h1>
       </a>
     </div>
 
@@ -33,10 +33,10 @@
       <hr-->
       <div class="post-preview-image">
         <?php if ( has_post_thumbnail() ) {
-           the_post_thumbnail();
-           } else { ?>
-           <img src="<?php bloginfo('template_directory'); ?>/img/default-image.jpg" alt="<?php the_title(); ?>" />
-           <?php } ?>
+            the_post_thumbnail();
+          } else {
+            the_excerpt();
+          } ?>
       </div>
   </div>
 </div>
