@@ -103,7 +103,6 @@ hr.separator {
 .btn-primary {
   background-color: #9EBD30 !important;
   border-color: #9EBD30 !important;
-  /*color: #212529;*/
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {

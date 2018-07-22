@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <?php
-              $navbar_items = ['About', 'Paiwi', 'FAQ', 'Contact'];
+              $navbar_items = ['About', 'Gallery', 'Paiwi', 'FAQ', 'Contact'];
               foreach ($navbar_items as $item) { ?>
                 <?php if ( is_front_page() && ! is_home() ) : ?>
                   <li class="nav-item">
