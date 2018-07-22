@@ -1,0 +1,14 @@
+/****************
+ * POST CONTENT *
+ ****************/
+
+.post-content-column {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.wp-post-image {
+  margin: 0 auto;
+  display: block;
+  max-height: 400px;
+}

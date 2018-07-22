@@ -15,19 +15,19 @@ table {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 body,
@@ -36,7 +36,7 @@ p {
 }
 
 p {
-  font-size: 24px;
+  font-size: 1.25rem;
 }
 
 hr {

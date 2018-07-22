@@ -148,6 +148,9 @@ function html5blank_styles()
 
     wp_register_style('dcnf-module-blog', get_template_directory_uri() . '/css/style-module-blog.css', array(), '1.0', 'all');
     wp_enqueue_style('dcnf-module-blog'); // Enqueue it!
+
+    wp_register_style('dcnf-module-post', get_template_directory_uri() . '/css/style-module-post.css', array(), '1.0', 'all');
+    wp_enqueue_style('dcnf-module-post'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
