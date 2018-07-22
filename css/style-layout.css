@@ -182,6 +182,9 @@ h2.section-heading {
 
 section {
   padding: 8rem 0;
+}
+
+section.bottom-separator {
   border-bottom: 100px solid #212529;
 }
 

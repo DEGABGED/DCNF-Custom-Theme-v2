@@ -20,59 +20,62 @@
     </header>
 
     <!-- About -->
-    <section class="bg-primary" id="about">
+    <section class="bg-primary bottom-separator" id="about">
       <div class="container-fluid">
-        <div class="row row-card">
-          <div class="col-lg-5 mx-auto text-center">
-            <img id="about-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" />
-            <br />
-            <table class="text-table text-left">
-              <tbody>
-                <tr>
-                  <td>Company Name:</td>
-                  <td>Don Chicho&#39;s Nurture Farm</td>
-                </tr>
-                <tr>
-                  <td>SEC Registration No.:</td>
-                  <td>CS201800961</td>
-                </tr>
-                <tr>
-                  <td>Company TIN No.:</td>
-                  <td>009-954-069-000</td>
-                </tr>
-              </tbody>
-            </table>
+        <div class="row-card">
+          <div class="row">
+            <div class="col-lg-5 mx-auto text-center">
+              <img id="about-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" />
+              <br />
+              <table class="text-table text-left">
+                <tbody>
+                  <tr>
+                    <td>Company Name:</td>
+                    <td>Don Chicho&#39;s Nurture Farm</td>
+                  </tr>
+                  <tr>
+                    <td>SEC Registration No.:</td>
+                    <td>CS201800961</td>
+                  </tr>
+                  <tr>
+                    <td>Company TIN No.:</td>
+                    <td>009-954-069-000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-lg-6 mx-auto text-center">
+              <h2 class="section-heading">About the Farm</h2>
+              <hr class="my-4">
+              <p class="text-justified mb-4">
+                Don Chicho’s Nurture Farm, an accredited subfarm of DV Boer Inc., is located 
+                in Sta. Maria, Bulacan. The rich and luscious land of the farm will serve as a
+                pasture site for the Boer goats. The farm aims to efficiently and 
+                effectively raise and produce goat livestock and products, not 
+                only ensuring the highest profit possible, but also providing 
+                employment to the local farmers in the community.
+                <br /><br />
+                Much like DV Boer, the farm also offers the Pa-iwi Package, giving everyone a chance to contribute to the farm’s development and goals, all while producing profit for both the investor and the farm.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-6 mx-auto text-center">
-            <h2 class="section-heading">About the Farm</h2>
-            <hr class="my-4">
-            <p class="text-justified mb-4">
-              Don Chicho’s Nurture Farm, an accredited subfarm of DV Boer Inc., is located 
-              in Sta. Maria, Bulacan. The rich and luscious land of the farm will serve as a
-              pasture site for the Boer goats. The farm aims to efficiently and 
-              effectively raise and produce goat livestock and products, not 
-              only ensuring the highest profit possible, but also providing 
-              employment to the local farmers in the community.
-              <br /><br />
-              Much like DV Boer, the farm also offers the Pa-iwi Package, giving everyone a chance to contribute to the farm’s development and goals, all while producing profit for both the investor and the farm.
-            </p>
-          </div>
-        </div>
-        <div class="row row-card">
-          <div class="col-lg-4 mx-auto text-left">
-            <h2 class="section-heading text-center">Our Mission</h2>
-            <hr class="my-4">
-            <p class="text-justified mb-4">
-                We exist to contribute the country’s food security and agricultural development through sustainable and profitable farming practices as well as mutually beneficial partnerships.
-            </p>
-          </div>
+          <hr class="separator">
+          <div class="row">
+            <div class="col-lg-4 mx-auto text-left">
+              <h2 class="section-heading text-center">Our Mission</h2>
+              <hr class="my-4">
+              <p class="text-justified mb-4">
+                  We exist to contribute the country’s food security and agricultural development through sustainable and profitable farming practices as well as mutually beneficial partnerships.
+              </p>
+            </div>
 
-          <div class="col-lg-4 mx-auto text-center">
-            <h2 class="section-heading">Our Vision</h2>
-            <hr class="my-4">
-            <p class="mb-4">
-              To be a leading, modern, innovative and successful agricultural enterprise.
-            </p>
+            <div class="col-lg-4 mx-auto text-center">
+              <h2 class="section-heading">Our Vision</h2>
+              <hr class="my-4">
+              <p class="mb-4">
+                To be a leading, modern, innovative and successful agricultural enterprise.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -81,120 +84,122 @@
     <!-- Paiwi Section -->
     <section id="paiwi">
       <div class="container">
-        <div class="row row-card">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">The Paiwi System</h2>
-            <hr class="my-4">
-            <p class="text-muted mb-4">
-                In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Profits from the offspring would be shared between the owner and the farmer.
-            </p>
-            <hr class="separator">
-            <img id="paiwi-img" src="<?php echo get_template_directory_uri(); ?>/img/paiwi-cycle.png">
-          </div>
-        </div>
-        <br />
-        <div class="row row-card">
-          <div class="col-lg-4 text-center">
-            <h3>Stage 1: Payment</h3>
-            <div class="badge-small">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/badge-1.png" />
+        <div class="row-card">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">The Paiwi System</h2>
+              <hr class="my-4">
+              <p class="mb-4">
+                  In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Profits from the offspring would be shared between the owner and the farmer.
+              </p>
+              <hr class="separator">
+              <img id="paiwi-img" src="<?php echo get_template_directory_uri(); ?>/img/paiwi-cycle.png">
             </div>
-            <hr>
-            <table class="table text-muted">
-              <tbody>
-                <tr>
-                  <th>Payment</th>
-                  <th>Cost</th>
-                </tr>
-                <tr>
-                  <td>Contract signing</td>
-                  <td>Php 160,000.00</td>
-                </tr>
-                <tr>
-                  <td>1 Month after</td>
-                  <td>Php 80,000.00</td>
-                </tr>
-                <tr>
-                  <td>2 Months after</td>
-                  <td>Php 80,000.00</td>
-                </tr>
-              </tbody>
-            </table>
           </div>
-          <div class="col-lg-4 text-center">
-            <h3>Stage 2: Payout</h3>
-            <div class="badge-small">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/badge-2.png" />
-            </div>
-            <hr>
-            <table class="table text-muted">
-              <tbody>
-                <tr>
-                  <th>Payout</th>
-                  <th>Revenue</th>
-                  <th>Month</th>
-                </tr>
-                <tr>
-                  <td>1st Payout</td>
-                  <td>Php 90,000.00</td>
-                  <td>11th</td>
-                </tr>
-                <tr>
-                  <td>2nd Payout</td>
-                  <td>Php 135,000.00</td>
-                  <td>19th</td>
-                </tr>
-                <tr>
-                  <td>3rd Payout</td>
-                  <td>Php 135,000.00</td>
-                  <td>27th</td>
-                </tr>
-                <tr>
-                  <td>4th Payout</td>
-                  <td>Php 135,000.00</td>
-                  <td>35th</td>
-                </tr>
-                <tr>
-                  <td>End of Contract (assets)</td>
-                  <td>Php 150,000.00</td>
-                  <td>35th / End</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col-lg-4 text-center">
-            <h3>Stage 3: Profit</h3>
-            <div class="badge-small">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/badge-3.png" />
-            </div>
-            <hr>
-            <table class="table text-muted">
-              <tbody>
-                <tr>
-                  <td>Total Cost:</td>
-                  <td>Php 320,000.00</td>
-                </tr>
-                <tr>
-                  <td>Total Revenue:</td>
-                  <td>Php 645,000.00</td>
-                </tr>
-                <tr>
-                  <td>Total Profit:</td>
-                  <td>Php 325,000.00</td>
-                </tr>
-                <tr>
-                  <td>Return of Investment:</td>
-                  <td>102 % over 3 years</td>
-                </tr>
-              </tbody>
+          <hr class="separator" />
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <h3>Stage 1: Payment</h3>
+              <div class="badge-small">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/badge-1.png" />
+              </div>
+              <hr>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th>Payment</th>
+                    <th>Cost</th>
+                  </tr>
+                  <tr>
+                    <td>Contract signing</td>
+                    <td>Php 160,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>1 Month after</td>
+                    <td>Php 80,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>2 Months after</td>
+                    <td>Php 80,000.00</td>
+                  </tr>
+                </tbody>
               </table>
+            </div>
+            <div class="col-lg-4 text-center">
+              <h3>Stage 2: Payout</h3>
+              <div class="badge-small">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/badge-2.png" />
+              </div>
+              <hr>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th>Payout</th>
+                    <th>Revenue</th>
+                    <th>Month</th>
+                  </tr>
+                  <tr>
+                    <td>1st Payout</td>
+                    <td>Php 90,000.00</td>
+                    <td>11th</td>
+                  </tr>
+                  <tr>
+                    <td>2nd Payout</td>
+                    <td>Php 135,000.00</td>
+                    <td>19th</td>
+                  </tr>
+                  <tr>
+                    <td>3rd Payout</td>
+                    <td>Php 135,000.00</td>
+                    <td>27th</td>
+                  </tr>
+                  <tr>
+                    <td>4th Payout</td>
+                    <td>Php 135,000.00</td>
+                    <td>35th</td>
+                  </tr>
+                  <tr>
+                    <td>End of Contract (assets)</td>
+                    <td>Php 150,000.00</td>
+                    <td>35th / End</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-lg-4 text-center">
+              <h3>Stage 3: Profit</h3>
+              <div class="badge-small">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/badge-3.png" />
+              </div>
+              <hr>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>Total Cost:</td>
+                    <td>Php 320,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>Total Revenue:</td>
+                    <td>Php 645,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>Total Profit:</td>
+                    <td>Php 325,000.00</td>
+                  </tr>
+                  <tr>
+                    <td>Return of Investment:</td>
+                    <td>102 % over 3 years</td>
+                  </tr>
+                </tbody>
+                </table>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="bg-dark text-white" id="faq">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">FAQ</h2>
