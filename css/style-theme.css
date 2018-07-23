@@ -115,6 +115,10 @@ hr.separator {
   color: #212529 !important;
 }
 
+.fa {
+  width: 1.5em;
+}
+
 @media (min-width: 1360px) {
   .container {
     max-width: 1300px;

@@ -415,6 +415,7 @@
               <span class="fa fa-envelope-o" aria-hidden="true"></span>&nbsp;<a href="mailto:donchicho@dcnurturefarm.com">donchicho@dcnurturefarm.com</a><br />
               <span class="fa fa-facebook" aria-hidden="true"></span>&nbsp;<a href="https://www.facebook.com/Don-Chichos-Nurture-Farm-1975173889414635/">Don Chicho&#39;s Nurture Farm</a><br />
               <span class="fa fa-map-marker" aria-hidden="true"></span>&nbsp;Brgy. Balasing, Sta. Maria, Bulacan<br />
+              <span class="fa fa-phone" aria-hidden="true"></span>&nbsp;+63 917 853 9045<br />
             </p>
           </div>
           <div id="minimap" class="col-lg-6 mx-auto text-center">
