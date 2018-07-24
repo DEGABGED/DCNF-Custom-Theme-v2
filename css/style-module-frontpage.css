@@ -101,3 +101,11 @@
     font-size: 1em;
   }
 }
+
+/********************
+ * SECTION: Contact *
+ ********************/
+
+#minimap img {
+  max-width: 100%;
+}
