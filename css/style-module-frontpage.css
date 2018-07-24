@@ -40,7 +40,8 @@
  * SECTION: Carousel *
  *********************/
 
-#carouselExampleIndicators {
+#carouselExampleIndicators,
+#carouselFAQ {
   width: 100%;
 }
 
