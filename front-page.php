@@ -183,7 +183,7 @@
           <hr class="separator" />
           <div class="row">
             <div class="col-lg-4 text-center">
-              <h3>Stage 1: Payment</h3>
+              <h3>Payment</h3>
               <div class="badge-small">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/badge-1.png" />
               </div>
@@ -210,7 +210,7 @@
               </table>
             </div>
             <div class="col-lg-4 text-center">
-              <h3>Stage 2: Payout</h3>
+              <h3>Payout</h3>
               <div class="badge-small">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/badge-2.png" />
               </div>
@@ -251,7 +251,7 @@
               </table>
             </div>
             <div class="col-lg-4 text-center">
-              <h3>Stage 3: Profit</h3>
+              <h3>Profit</h3>
               <div class="badge-small">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/badge-3.png" />
               </div>

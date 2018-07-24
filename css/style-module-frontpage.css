@@ -49,6 +49,10 @@
   display: flex;
 }
 
+#carouselFAQ .carousel-container {
+  max-height: 20em;
+}
+
 .carousel-inner {
   padding-bottom: 2em;
   max-height: 480px;
