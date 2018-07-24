@@ -85,6 +85,10 @@ hr.separator {
   padding: 60px;
 }
 
+.row-title {
+  margin-bottom: 30px;
+}
+
 .text-justified {
   text-align: justify;
   text-justify: auto;

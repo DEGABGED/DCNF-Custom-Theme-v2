@@ -40,25 +40,43 @@
  * SECTION: Carousel *
  *********************/
 
- #carouselExampleIndicators {
+#carouselExampleIndicators {
   width: 100%;
 }
 
-.carousel-item {
-  padding: 0 15%;
-  height: 30em;
-  width: 100%;
+.carousel-container {
+  display: flex;
 }
 
 .carousel-inner {
   padding-bottom: 2em;
   max-height: 480px;
+  max-width: 1300px;
+  flex: 0 1 auto;
+}
+
+.carousel-control {
+  position: relative;
+  width: 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.carousel-item {
+  height: 30em;
+  width: 100%;
 }
 
 .carousel-item, .carousel-item * {
   font-size: 1em;
   font-size: 2vmin;
   max-height: 100%;
+  overflow: hidden;
 }
 
 .carousel-indicators {

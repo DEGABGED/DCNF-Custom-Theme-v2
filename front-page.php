@@ -21,7 +21,7 @@
 
     <!-- About -->
     <section class="bg-primary" id="about">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row-card">
           <div class="row">
             <div class="col-lg-5 mx-auto text-center">
@@ -84,7 +84,7 @@
     <!-- Gallery Section -->
     <section class="bg-dark text-white" id="gallery">
       <div class="container">
-        <div class="row">
+        <div class="row row-title">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Gallery</h2>
             <hr class="my-4">
@@ -92,6 +92,13 @@
         </div>
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-container">
+            <div class="carousel-control">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="gallery-image" src="<?php echo get_template_directory_uri(); ?>/img/gallery-tmp/1.JPG">
@@ -112,6 +119,13 @@
                 <img class="gallery-image" src="<?php echo get_template_directory_uri(); ?>/img/gallery-tmp/6.JPG">
               </div>
             </div>
+            <div class="carousel-control">
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+            </div>
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -120,14 +134,6 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             </ol>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>
@@ -136,7 +142,7 @@
     <!-- Latest News -->
     <section class="bg-dark text-white" id="latest">
       <div class="container">
-        <div class="row">
+        <div class="row row-title">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Latest News</h2>
             <hr class="my-4">
@@ -286,6 +292,12 @@
         </div>
         <div class="row">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-control">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <p>
@@ -377,6 +389,12 @@
                 </p>
               </div>
             </div>
+            <div class="carousel-control">
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -385,14 +403,6 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             </ol>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>
