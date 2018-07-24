@@ -428,6 +428,7 @@
               <span class="fa fa-facebook" aria-hidden="true"></span>&nbsp;<a href="https://www.facebook.com/Don-Chichos-Nurture-Farm-1975173889414635/">Don Chicho&#39;s Nurture Farm</a><br />
               <span class="fa fa-map-marker" aria-hidden="true"></span>&nbsp;Brgy. Balasing, Sta. Maria, Bulacan<br />
               <span class="fa fa-phone" aria-hidden="true"></span>&nbsp;+63 917 853 9045<br />
+              <span class="fa fa-location-arrow" aria-hidden="true"></span>&nbsp;<a href="https://www.google.com/maps/dir//Don+Chicho's+Nurture+Farm,+568+Sitio+Caingin,+Santa+Maria,+Bulacan/@14.8533265,121.0021498,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3397aeb378836c7f:0x7721e22acb790813!2m2!1d121.0043385!2d14.8533213">Click here for directions!</a><br />
             </p>
           </div>
           <div id="minimap" class="col-lg-6 mx-auto text-center">
