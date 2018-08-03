@@ -4,6 +4,7 @@
 
 #blog {
   margin-top: 50px;
+  flex: 1;
 }
 
 .post-preview {

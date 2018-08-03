@@ -171,6 +171,16 @@ header.banner {
   min-height: 0px;
 }
 
+/***********
+ * CONTENT *
+ ***********/
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 /************
  * SECTIONS *
  ************/
@@ -196,7 +206,9 @@ section.bottom-separator {
  * FOOTER *
  **********/
 
+
 footer.footer {
+  height: 72px;
   background-color: #212529;
   padding-top: 12px;
   padding-bottom: 12px;
