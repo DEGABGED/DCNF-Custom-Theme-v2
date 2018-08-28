@@ -1,0 +1,25 @@
+.comments {
+    padding: 0px 20px;
+    background-color: #c6e083;
+}
+
+.comments > ul {
+    padding-right: 40px;
+    width: 100%;
+}
+
+.comment-body {
+    margin: 20px 0;
+    border: 3px solid;
+    border-radius: 2em;
+    padding: 20px;
+    background-color: #C8E0E9;
+}
+
+.comment-respond {
+    margin: 0 auto;
+    border: 3px solid;
+    border-radius: 2em;
+    padding: 20px;
+    margin-bottom: 50px;
+}
