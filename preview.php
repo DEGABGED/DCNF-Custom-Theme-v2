@@ -1,4 +1,4 @@
-<div class="col-sm-4 post-preview-box">
+<div class="col-md-4 col-sm-12 post-preview-box">
   <div class="post-preview">
     <!-- Title -->
     <div class="post-preview-title">

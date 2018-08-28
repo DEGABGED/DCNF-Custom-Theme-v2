@@ -50,6 +50,7 @@
 
 .post-preview-sub {
   display: flex;
+  height: 6.25rem;
 }
 
 span.details {

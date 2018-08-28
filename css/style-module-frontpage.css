@@ -97,10 +97,6 @@
 }
 
 @media (max-width: 991.98px) {
-  #about-img {
-    margin-top: -80px;
-  }
-
   .carousel-item, .carousel-item * {
     font-size: 1em;
   }
