@@ -196,15 +196,15 @@
                   </tr>
                   <tr>
                     <td>Contract signing</td>
-                    <td>Php 160,000.00</td>
+                    <td>Php 80,000.00</td>
                   </tr>
                   <tr>
                     <td>1 Month after</td>
-                    <td>Php 80,000.00</td>
+                    <td>Php 40,000.00</td>
                   </tr>
                   <tr>
                     <td>2 Months after</td>
-                    <td>Php 80,000.00</td>
+                    <td>Php 40,000.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -224,27 +224,27 @@
                   </tr>
                   <tr>
                     <td>1st Payout</td>
-                    <td>Php 90,000.00</td>
+                    <td>Php 40,000.00</td>
                     <td>11th</td>
                   </tr>
                   <tr>
                     <td>2nd Payout</td>
-                    <td>Php 135,000.00</td>
+                    <td>Php 67,500.00</td>
                     <td>19th</td>
                   </tr>
                   <tr>
                     <td>3rd Payout</td>
-                    <td>Php 135,000.00</td>
+                    <td>Php 67,500.00</td>
                     <td>27th</td>
                   </tr>
                   <tr>
                     <td>4th Payout</td>
-                    <td>Php 135,000.00</td>
+                    <td>Php 67,500.00</td>
                     <td>35th</td>
                   </tr>
                   <tr>
                     <td>End of Contract (assets)</td>
-                    <td>Php 150,000.00</td>
+                    <td>Php 75,000.00</td>
                     <td>35th / End</td>
                   </tr>
                 </tbody>
@@ -260,19 +260,19 @@
                 <tbody>
                   <tr>
                     <td>Total Cost:</td>
-                    <td>Php 320,000.00</td>
+                    <td>Php 160,000.00</td>
                   </tr>
                   <tr>
                     <td>Total Revenue:</td>
-                    <td>Php 645,000.00</td>
+                    <td>Php 232,500.00</td>
                   </tr>
                   <tr>
                     <td>Total Profit:</td>
-                    <td>Php 325,000.00</td>
+                    <td>Php 72,500.00</td>
                   </tr>
                   <tr>
                     <td>Return of Investment:</td>
-                    <td>102 % over 3 years</td>
+                    <td>45 % over 3 years</td>
                   </tr>
                 </tbody>
                 </table>
@@ -307,7 +307,7 @@
                   <br /><br />
                   2. How does the Paiwi Program works?<br />
                   The paiwi program works when a potential paiwi partner (the client) avails of a Paiwi 
-                    package worth 320,000 PHP for 30 heads of female goats (does) from Don Chicho's Nurture 
+                    package worth 160,000 PHP for 30 heads of female goats (does) from Don Chicho's Nurture 
                     farm, who will manage ALL the farming which covers housing, breeding, managing and selling 
                     the goats. If the goat dies or got stolen, they will be replaced as part of the farm’s 
                     responsibility to secure your investment and deliver your profits on time as stated in the 
@@ -339,24 +339,24 @@
                 <p>
                     7. How can a paiwi partner gain profit from the paiwi program?<br />
                     On the 11th month from the start of contract, your 30 heads of does have already 
-                    given birth to 30 baby goats (kids). We’ll buy each kid for Php 3,000 each or Php 90,000 
+                    given birth to 30 baby goats (kids). We’ll buy each kid for Php 1,333 each or Php 40,000 
                     in total for your first payout. The next 8 months will be another period of conception for 
                     your 30 does which normally give multiple births after their first conception. This time we 
-                    expect 45 kids which we will pay for P 135,000 for your 2nd payout. The same thing happens 
+                    expect 45 kids which we will pay for P 67,500 for your 2nd payout. The same thing happens 
                     for your 3rd and 4th payouts as summarized in the diagram above.
                     <br /><br />
                     8. What happens at the end of the 35-month contract?<br />
                     You have 2 options:<br />
-                    a. You can get your initial 30 female goats from us or, b. We can buy the initial 30 female goats for 150, 000 PHP (salvage value)
+                    a. You can get your initial 30 female goats from us or, b. We can buy the initial 30 female goats for 75, 000 PHP (salvage value)
                 </p>
               </div>
               <div class="carousel-item">
                 <p>
                     9. How much is my total profit?<br />
-                    645, 000 PHP (total payouts + salvage value)
+                    232, 500 PHP (total payouts + salvage value)
                     <br /><br />
                     10. How much is my net profit?<br />
-                    645,000 – 320,000 (price of paiwi package) = 325,000 PHP
+                    232,500 – 160,000 (price of paiwi package) = 72,500 PHP
                     <br /><br />
                     11. Can I see my goats firsthand?<br />
                     Yes, you can visit the farm and participate in the ear tagging process. 
